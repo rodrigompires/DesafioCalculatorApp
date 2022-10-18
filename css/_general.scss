@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+
+// Tipografia
+
+$ffamily: 'League Spartan', sans-serif;
+$weights: 700;
+$fsize: 32px;
+
+
+// CORES
+/// TEMA 1
+/// ----------------------------------------------------------------------
+
+$mainbackground--one: hsl(222, 26%, 31%);
+$tooglebackground--one: hsl(223, 31%, 20%);
+$screenbackground--one: hsl(224, 36%, 15%);
+
+$keybackground--one: hsl(225, 21%, 49%);
+$keyshadow--one: hsl(224, 28%, 35%);
+$keyredbackground--one: hsl(6, 63%, 50%);
+$keyredshadow--one: hsl(6, 70%, 34%);
+
+$keyorangebackground--one: hsl(30, 25%, 89%);
+$keyorangeshadow--one: hsl(28, 16%, 65%);
+
+$textdark--one: hsl(221, 14%, 31%);
+$textwhite--one: hsl(0, 0, 100%);
+
+$hover--one: #FFFFFF;
+$hoverdark--one: #A2B2E3;
+$hoverred--one: #F96C5B;
+
+/// TEMA 2
+/// ----------------------------------------------------------------------
+
+$mainbackground--two: hsl(0, 0%, 90%);
+$tooglebackground--two: hsl(0, 5%, 81%);
+$screenbackground--two: hsl(0, 0%, 93%);
+
+$keybackground--two: hsl(185, 42%, 37%);
+$keyshadow--two: hsl(185, 58%, 25%);
+$keyredbackground--two: hsl(25, 98%, 40%);
+$keyredshadow--two: hsl(25, 99%, 27%);
+
+$keyorangebackground--two: hsl(45, 7%, 89%);
+$keyorangeshadow--two: hsl(35, 11%, 61%);
+
+$textdark--two: hsl(60, 10%, 19%);
+$textwhite--two: hsl(0, 0, 100%);
+
+$hover--two: #62B5BC;
+$hoverred--two: #FF8B38;
+
+
+/// TEMA 3
+/// ----------------------------------------------------------------------
+
+$mainbackground--three: hsl(268, 75%, 9%);
+$tooglebackground--three: hsl(268, 71%, 12%);
+
+$keybackground--three: #331B4D;
+$keyshadow--three: hsl(290, 70%, 36%);
+$keycyanbackground--three: #00DECF;
+$keycyanshadow--three: #94FFF9;
+
+
+$keyvioletbackground--three: #1E0836;
+$keyvioletshadow--three: #56077C;
+
+$textyellow--three: hsl(52, 100%, 62%);
+$textdark--three: hsl(198, 20%, 13%);
+$textwhite--three:hsl(0, 0, 100%);
+
+$hover-three: #8332B1;
+$hoverbtns-three: #6B34AC;
+$hovercyan--three: #94FFF9;
+
+
+
+$text-footer: #ff7bac;
+$text-footer-2: #7babff;
+$text-footer-3: #EA4A46;
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: $fsize;
+    font-family: $ffamily;
+}
+
+body {  
+    min-width: 375px;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    transition: all .5s ease;  
+
+    background-color: $mainbackground--one;
+}
+

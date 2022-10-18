@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="range">
+      <input type="range" name="range__sound" id="range__sound" value="1" min="0" max="1" class="range__sound">
+      <label for="range__sound" class="range__label">sound</label>
+    </div>
+
+    <header class="init">
+      <h3 class="init__text">calc</h3>
+      <label for="init__theme" class="init__label">THEME</label>
+
+      <div class="init__themes">
+        <div class="init__numbers">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </div>
+
+        <input type="range" name="init__theme" id="init__theme" value="1" min="1" max="3" class="init__theme">
+      </div>
+
+    </header>
+
+    <section class="calculator">
+      
+      <div class="calculator__display">
+        <div class="calculator__main">0</div>
+        <div class="calculator__mini"></div>
+      </div>
+      <div class="calculator__buttons">
+
+        <button class="calculator__button btns" id="digit7">7</button>
+        <button class="calculator__button btns" id="digit8">8</button>
+        <button class="calculator__button btns" id="digit9">9</button>
+        <button class="calculator__button--del btns" id="keydel">DEL</button>
+        <button class="calculator__button btns" id="digit4">4</button>
+        <button class="calculator__button btns" id="digit5">5</button>
+        <button class="calculator__button btns" id="digit6">6</button>
+        <button class="calculator__button btns" id="operator+">+</button>
+        <button class="calculator__button btns" id="digit1">1</button>
+        <button class="calculator__button btns" id="digit2">2</button>
+        <button class="calculator__button btns" id="digit3">3</button>
+        <button class="calculator__button btns" id="operator-">-</button>
+        <button class="calculator__button btns" id="key.">.</button>
+        <button class="calculator__button btns" id="digit0">0</button>
+        <button class="calculator__button btns" id="operator/">/</button>
+        <button class="calculator__button btns" id="operatorx">x</button>
+        <button class="calculator__button--reset btns" id="keyreset">RESET</button>
+        <button class="calculator__button--equal btns" id="key=">=</button>
+
+      </div>
+
+    </section>
+
+    <footer class="link">
+        <a href="./pages/mario.html" class="link__neon">click here and remember your childhood</a>
+        <a href="#" class="link__neon2">rodrigo pires</a>
+        <a href="#" class="link__neon3">developer</a>
+    </footer>
+
+  </main>
+
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>

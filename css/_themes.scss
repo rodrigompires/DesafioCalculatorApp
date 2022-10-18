@@ -1,0 +1,313 @@
+
+// TEMA 2
+// ---------------------------------------------------------------------------------------
+
+body.two {
+    background-color: $mainbackground--two;
+
+    .range {
+
+        &__sound {
+            background-color: $tooglebackground--two;
+        }
+    }
+
+    .init {
+
+        &__text {
+            color: $textdark--two;
+        }
+
+        &__label {
+            color: $textdark--two;
+        }
+
+        &__numbers {
+
+            span {
+                color: $textdark--two;
+
+            }
+        }
+
+        &__theme {
+            background-color: $tooglebackground--two;
+
+            &::-webkit-slider-thumb {               
+                &:hover {
+                    background-color: $hoverred--two;
+                }
+            }
+        }
+    }
+
+
+    .calculator {
+        &__display {
+            color: $textdark--two;
+            background-color: $textwhite--two;
+        }
+
+        &__buttons {
+            background-color: $tooglebackground--two;
+
+        }
+
+        &__button {
+            background-color: $keyorangebackground--two;
+            box-shadow: 0 4px $keyorangeshadow--two;
+            color: $textdark--two;
+
+            &:hover {
+                background-color: $hover--one;
+            }
+
+            &.clicked {
+                background-color: $hover--one;
+                box-shadow: 0 4px $hover--one;
+            }
+
+
+
+            &--del {
+                background-color: $keybackground--two;
+                box-shadow: 0 4px $keyshadow--two;
+
+                &:hover {
+                    background-color: $hover--two;
+                }
+
+                &.clicked {
+                    background-color: $hover--two;
+                    box-shadow: 0 4px $keyshadow--two;
+                }
+            }
+
+
+
+            &--reset {
+                background-color: $keybackground--two;
+                box-shadow: 0 4px $keyshadow--two;
+
+                &:hover {
+                    background-color: $hover--two;
+                }
+
+                &.clicked {
+                    background-color: $hover--two;
+                    box-shadow: 0 4px $keyshadow--two;
+                }
+            }
+
+            &--equal {
+                background-color: $keyredbackground--two;
+                box-shadow: 0 4px $keyredshadow--two;
+
+                &:hover {
+                    background-color: $hoverred--two;
+                }
+
+                &.clicked {
+                    background-color: $hoverred--two;
+                    box-shadow: 0 4px $keyredshadow--two;
+                }
+            }
+
+        }
+
+    }
+
+
+    .link {
+
+        &__neon2 {
+            text-shadow: 0 0 5px $text-footer-3,
+                    0 0 10px $text-footer-3,
+                    0 0 20px $text-footer-3,
+                    0 0 40px $text-footer-3,
+                    0 0 80px $text-footer-3,
+                    0 0 100px $text-footer-3,
+                    0 0 120px $text-footer-3;
+        }
+
+        &__neon3 {
+            display: block;
+            text-shadow: 0 0 5px $text-footer-3,
+                    0 0 10px $text-footer-3,
+                    0 0 20px $text-footer-3,
+                    0 0 40px $text-footer-3,
+                    0 0 80px $text-footer-3,
+                    0 0 100px $text-footer-3,
+                    0 0 120px $text-footer-3;
+        }
+    } 
+
+}
+
+
+// TEMA 3
+// ---------------------------------------------------------------------------------------
+
+
+body.three {
+    background-color: $mainbackground--three;
+
+    .range {
+
+        &__sound {
+            background-color: $tooglebackground--three;
+        }
+    }
+
+    .init {
+
+        &__text {
+            color: $textyellow--three;
+        }
+
+        &__label {
+            color: $textyellow--three;
+        }
+
+        &__numbers {
+
+            span {
+                color: $textyellow--three;
+
+            }
+        }
+
+        &__theme {
+            background-color: $tooglebackground--three;
+
+            &::-webkit-slider-thumb {      
+                background-color: $keycyanbackground--three;       
+                &:hover {
+                    background-color: $hovercyan--three;
+                }
+            }
+        }
+    }
+
+
+    .calculator {
+        &__display {
+            color: $textyellow--three;
+            background-color: $keyvioletbackground--three;
+        }
+
+        &__buttons {
+            background-color: $keyvioletbackground--three;
+
+        }
+
+        &__button {
+            background-color: $keybackground--three;
+            box-shadow: 0 4px $keyshadow--three;
+            color: $textyellow--three;
+
+            &:hover {
+                background-color: $hoverbtns-three;
+            }
+
+            &.clicked {
+                background-color: $hoverbtns-three;
+                box-shadow: 0 4px $hoverbtns-three;
+            }
+
+
+
+            &--del {
+                background-color: $keyvioletshadow--three;
+                box-shadow: 0 4px $keyshadow--three;
+
+                &:hover {
+                    background-color: $hover-three;
+                }
+
+                &.clicked {
+                    background-color: $hover-three;
+                    box-shadow: 0 4px $keyshadow--two;
+                }
+            }
+
+
+
+            &--reset {
+                background-color: $keyvioletshadow--three;
+                box-shadow: 0 4px $keyshadow--three;
+
+                &:hover {
+                    background-color: $hover-three;
+                }
+
+                &.clicked {
+                    background-color: $hover-three;
+                    box-shadow: 0 4px $keyshadow--three;
+                }
+            }
+
+            &--equal {
+                background-color: $keycyanbackground--three;
+                box-shadow: 0 4px $keycyanshadow--three;
+                color: $textdark--three;
+
+                &:hover {
+                    background-color: $hovercyan--three;
+                }
+
+                &.clicked {
+                    background-color: $hovercyan--three;
+                    box-shadow: 0 4px $hovercyan--three;
+                }
+            }
+
+        }
+
+    }
+
+    .link {
+        
+
+        &__neon {
+            display: block;
+                font-family: 'Londrina Outline', cursive;
+                font-size: .8rem;
+                font-weight: 600;
+                color: #fff;
+                letter-spacing: .1rem;
+                text-align: center;
+                text-transform: uppercase;
+                text-decoration: none;
+                text-shadow: 0 0 5px $text-footer,
+                    0 0 10px $text-footer,
+                    0 0 20px $text-footer,
+                    0 0 40px $text-footer,
+                    0 0 80px $text-footer,
+                    0 0 100px $text-footer,
+                    0 0 120px $text-footer;
+                animation: blink 2s linear infinite;   
+            
+        }
+
+        &__neon2 {
+            display: none;
+        }
+    }   
+
+}
+
+
+@keyframes blink {
+    80%, 90%, 99% {
+        opacity: 1;
+    }
+    
+    85%, 87%, 96%, 98% {
+        opacity: .2;
+    }
+    
+    86%, 89%, 97% {
+        opacity: .8;
+    }
+}

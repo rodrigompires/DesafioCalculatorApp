@@ -1,0 +1,38 @@
+.link {
+    width: 100%;
+    margin-top: .8rem;
+    text-align: center;
+
+    &__neon {
+        display: none;
+    }
+
+    &__neon2 {
+        display: block;
+    }
+
+    &__neon3 {
+        display: none;
+    }
+
+    &__neon2, &__neon3 {
+
+        font-family: 'Londrina Outline', cursive;
+        font-size: .8rem;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: .1rem;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-shadow: 0 0 5px $text-footer-2,
+            0 0 10px $text-footer-2,
+            0 0 20px $text-footer-2,
+            0 0 40px $text-footer-2,
+            0 0 80px $text-footer-2,
+            0 0 100px $text-footer-2,
+            0 0 120px $text-footer-2;
+        animation: blink 2s linear infinite;
+
+    }
+}
