@@ -48,6 +48,15 @@ body {
   height: 12px;
   border-radius: 50%;
 }
+.range__sound::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  background-color: hsl(6deg, 63%, 50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+}
 .range__label {
   font-size: 0.4rem;
   color: white;
@@ -104,6 +113,15 @@ body {
   width: 16px;
   height: 16px;
   border-radius: 50%;
+}
+.init__theme::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  background-color: hsl(6deg, 63%, 50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
 }
 
 .calculator {

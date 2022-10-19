@@ -59,6 +59,16 @@
       border-radius: 50%;       
     }
 
+    &::-moz-range-thumb {
+      -moz-appearance: none;
+      appearance: none;
+      background-color: $keyredbackground--one;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: none;
+    }
+
   }
 
 }
